@@ -4,11 +4,12 @@ blib2d-core-fp11
 Blib2D core library
 -------------------
 
-Please Note, This library is was discontinued due to the advent of Stage3D. Blib2D will become part of the Zest3D framework.
+Blib2D is an AS3 Bitmap blitting library. Blib2D contains structures for sprites, tiles, tilemaps etc. It is extremely efficient as only pointer references to sprites and tiles are moved around, rather than graphic resources. This makes Blib2D one of the fastest Bitmap blitting systems available for ActionScript.
 
-
+Please Note, some widgets are available but are in development, however, our priorities are currently shifted to the GPU 3D engine Zest3D.
 
 Example:
+
 ```actionscript
 Display.initialize( stage );
 addChild( Display.getInstance() );
